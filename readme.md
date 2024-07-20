@@ -1,5 +1,9 @@
 # Adventurer 3 Command
 This is a little python script for control Flashforge Adventurer 3 printer. This is a remix of Adv3GUI from georgewoodall82 (project link : https://github.com/georgewoodall82/Adv3GUI ).It include some shortcut and it's lightweight.There is a PDF file for some example (maked by georgewoodall82)
+To use it correctly, download a version (like V1.py) and Adv3Api.py(it contains functions that are necessary for this script)
+
+# Requirement
+-tkinter,os and threading are required for this script
 
 # Issue
 1.Don't add the port when the script ask the ip (192.168.1.20:8899 will become 192.168.1.20)
